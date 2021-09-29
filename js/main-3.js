@@ -145,24 +145,50 @@
 			patterns: {
 				//youtube videos
 				youtube: {
-					index: 'youtube.com/', 
-					id: 'v=', 
-					src: 'https://www.youtube.com/embed/%id%?autoplay=1' 
+					index: '', 
+					id: '', 
+					src: '' 
 				},
 				//vimeo videos
 				vimeo: {
-					index: 'vimeo.com/',
+					index: '',
 					id: '/',
-					src: 'http://player.vimeo.com/video/%id%?autoplay=1'
+					src: ''
 				},
 				//google maps
 				gmaps: {
-					index: '//maps.google.',
-					src: '%id%&output=embed'
+					index: '',
+					src: ''
 				}
 			}
 		}
 	});
+
+
+//iframe scripts
+// $.extend(true, $.magnificPopup.defaults, {  
+// 	iframe: {
+// 		patterns: {
+// 			//youtube videos
+// 			youtube: {
+// 				index: 'youtube.com/', 
+// 				id: 'v=', 
+// 				src: 'https://www.youtube.com/embed/%id%?autoplay=1' 
+// 			},
+// 			//vimeo videos
+// 			vimeo: {
+// 				index: 'vimeo.com/',
+// 				id: '/',
+// 				src: 'http://player.vimeo.com/video/%id%?autoplay=1'
+// 			},
+// 			//google maps
+// 			gmaps: {
+// 				index: '//maps.google.',
+// 				src: '%id%&output=embed'
+// 			}
+// 		}
+// 	}
+// });
 
 	/*----------------------------------------------------*/
 	/*  PIE CHART */
